@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, 0.205);
+    border-radius: 8px;
+}
+.addBtn{
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    color: blue;
+}
+.details{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    transition: .4s ease-in-out;
+}
+.fa{
+    visibility: hidden;
+    margin-left: 5px;
+}
+.details :hover {
+    transform: scale(1.02);
+}
+.details :hover .fa{
+    visibility: visible;
+}
+
+.search{
+    padding: 5px 8px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 255, 0.559);
+    line-height: 15px;
+    margin-left: 40px;
+}
